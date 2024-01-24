@@ -1,0 +1,74 @@
+header {
+  /* background-color: greenyellow; */
+  display: flex;
+  width: 100%;
+  padding: 30px 0 15px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(270deg, #101010 8.85%, rgba(16, 16, 16, 0) 50%);
+}
+.navbar-wrapper {
+  width: calc(100% - 50px);
+  max-width: 1350px;
+  justify-content: space-between;
+}
+
+.logo {
+  gap: 3px;
+}
+
+.logo h2 {
+  color: #6d95fc;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.25px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.66px;
+}
+
+.nav {
+  gap: 10px;
+  padding: 10px 30px;
+}
+
+.nav a {
+  padding: 10px 18px;
+}
+
+/* .nav img {
+  padding: 5px 30px;
+} */
+
+.nav button {
+  background: url("/icons/seach.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  gap: 10px;
+  height: 25px;
+  padding: 5px 30px;
+  width: auto;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-wrapper {
+    padding: 0;
+  }
+}
